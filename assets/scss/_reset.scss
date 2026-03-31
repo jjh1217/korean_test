@@ -1,0 +1,84 @@
+@use 'variables' as *;
+
+/* reset */
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    box-sizing: border-box;
+    color: var(--color-base);
+}
+body, div, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, table, tr, th, td, 
+form, fieldset, legend, input, label, select, textarea, button {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+body, h1, h2, h3, h4, h5, h6 {font-weight: 400;}
+h1, h2, h3, h4, h5 {font-family: "Montserrat";}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ul, ol, li {list-style: none;}
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+img {
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+    border: none;
+}
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+button {
+    border: 0;
+    cursor: pointer;
+    background: none;
+}
+input,
+textarea,
+select,
+fieldset {
+    border: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    outline: none;
+    background: none;
+}
+select {cursor: pointer;}
+input[type='checkbox'],
+input[type='radio'] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+fieldset > legend,
+table > caption {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    border: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+}
+blockquote, q {quotes: none;}
+blockquote:before, 
+blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+*::before, *::after {box-sizing: border-box;}

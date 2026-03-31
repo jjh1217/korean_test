@@ -1,0 +1,118 @@
+@use 'variables' as *;
+@use 'mixin' as *;
+
+/* text */
+.t-it {font-weight: 300 !important;}
+.t-rg {font-weight: 400 !important;}
+.t-md {font-weight: 500 !important;}
+.t-sb {font-weight: 600 !important;}
+.t-bo {font-weight: 700 !important;}
+.t-eb {font-weight: 800 !important;}
+.t-bk {font-weight: 900 !important;}
+.t-lt {text-align: left !important;}
+.t-rt {text-align: right !important;}
+.t-ct {text-align: center !important;}
+.t-ep {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* color & background-color */
+@each $name in map-keys($colors) {
+    .c-#{$name} {
+        color: var(--color-#{$name}) !important;
+    }
+    .bg-#{$name} {
+        background-color: var(--color-#{$name}) !important;
+    }
+}
+
+/*  width / height / space */
+.w-auto {width: auto !important;}
+.w-full {width: 100% !important;}
+.wn-auto {min-width: auto !important;}
+.h-auto {height: auto !important;}
+.m-auto {margin: 0 auto !important;}
+@for $i from 0 through 50 {
+    .w-#{$i * 10} {width: #{$i * 10}px !important;}
+    .wx-#{$i * 10} {max-width: #{$i * 10}px !important;}
+    .wn-#{$i * 10} {min-width: #{$i * 10}px !important;}
+    .h-#{$i * 10} {height: #{$i * 10}px !important;}
+    .hx-#{$i * 10} {max-height: #{$i * 10}px !important;}
+    .hn-#{$i * 10} {min-height: #{$i * 10}px !important;}
+}
+@for $i from 1 through 90 {
+    @if $i <= 20 or ($i > 20 and $i % 5 == 0) {
+        .wp-#{$i} {
+            width: $i * 1% !important;
+        }
+    }
+}
+@for $i from 0 through 50 {
+    $v: $i * 2;
+    @if $v <= 40 or $v % 10 == 0 {
+        .p-#{$v} {padding: #{$v}px !important;}
+        .pt-#{$v} {padding-top: #{$v}px !important;}
+        .pb-#{$v} {padding-bottom: #{$v}px !important;}
+        .pl-#{$v} {padding-left: #{$v}px !important;}
+        .pr-#{$v} {padding-right: #{$v}px !important;}
+        .py-#{$v} {padding-top:#{$v}px !important; padding-bottom: #{$v}px !important;}
+        .px-#{$v} {padding-left: #{$v}px !important; padding-right: #{$v}px !important;}
+        .m-#{$v} {margin: #{$v}px !important;}
+        .mt-#{$v} {margin-top: #{$v}px !important;}
+        .mb-#{$v} {margin-bottom: #{$v}px !important;}
+        .ml-#{$v} {margin-left: #{$v}px !important;}
+        .mr-#{$v} {margin-right: #{$v}px !important;}
+        .my-#{$v} {margin-top: #{$v}px !important; margin-bottom: #{$v}px !important;}
+        .mx-#{$v} {margin-left: #{$v}px !important; margin-right: #{$v}px !important;}
+        .g-#{$v}  {gap: #{$v}px !important;}
+        .rg-#{$v} {row-gap: #{$v}px !important;}
+        .cg-#{$v} {column-gap: #{$v}px !important;}
+    }
+}
+.b-0  {border: 0 !important;}
+.bt-0 {border-top: 0 !important;}
+.bb-0 {border-bottom: 0 !important;}
+.bl-0 {border-left: 0 !important;}
+.br-0 {border-right: 0 !important;}
+.by-0 {border-top: 0 !important; border-bottom: 0 !important;}
+.bx-0 {border-left: 0 !important; border-right: 0 !important;}
+@for $i from 1 through 20 {
+    .brs-#{$i} {border-radius: #{$i}px !important;}
+}
+
+/* grid */
+.gd-full {@include grid-box();}
+.gd-half {@include grid-box($col: repeat(2, 1fr));}
+
+/* flex */
+.fx-row {@include flex-row($align: center);}
+.fx-col {@include flex-col();}
+.fx-btw {@include flex-row($just: space-between, $align: center);}
+.fx-dr {flex-direction: row !important;}
+.fx-dc {flex-direction: column !important;}
+.fx-no {flex: none !important;}
+.fx-full {flex: 1 !important;}
+@for $i from 0 through 9 {
+    .fx-#{$i} {flex: #{$i * 0.1} !important;}
+}
+
+/* sort - justify / align */
+$sort-map: (
+  jc: (justify-content, start center end initial),
+  ji: (justify-items, start center end initial),
+  js: (justify-self, start center end initial),
+  ac: (align-content, start center end normal),
+  ai: (align-items, start center end normal),
+  as: (align-self, start center end normal)
+);
+@each $prefix, $data in $sort-map {
+    $prop: nth($data, 1);
+    $values: nth($data, 2);
+    @each $val in $values {
+        .#{$prefix}-#{$val} {
+            #{$prop}: #{$val} !important;
+        }
+    }
+}
