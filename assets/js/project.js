@@ -1,7 +1,7 @@
 const projectData = {
     'bookswage': {
         name: 'Bookswage',
-        info: 'Bookswage 콘텐츠 통합 보안 관제 서버',
+        info: '콘텐츠 통합 보안 관제 서버',
         thum: './assets/img/thum/pf_bookswage.png',
         category: 'Desktop',
         aosDelay: 0,
@@ -38,7 +38,7 @@ const projectData = {
     },
     'yes24': {
         name: 'YES24',
-        info: 'YES24 크레마클럽 B2B 관리자 시스템',
+        info: '크레마클럽 B2B 관리자 시스템',
         thum: './assets/img/thum/pf_yes24.png',
         category: 'Desktop',
         aosDelay: 0,
@@ -77,7 +77,7 @@ const projectData = {
     },
     'ieumpay': {
         name: 'ieumPAY',
-        info: 'ieumPAY 급여관리 아웃소싱 플랫폼',
+        info: '급여관리 아웃소싱 플랫폼',
         thum: './assets/img/thum/pf_ieumpay.png',
         category: 'Desktop',
         aosDelay: 0,
@@ -112,7 +112,7 @@ const projectData = {
     },
     'ieumtax': {
         name: 'ieumTAX',
-        info: 'ieumTAX 세무신고 아웃소싱 플랫폼',
+        info: '세무신고 아웃소싱 플랫폼',
         thum: './assets/img/thum/pf_ieumtax.png',
         category: 'Desktop',
         aosDelay: 100,
@@ -153,7 +153,7 @@ const projectData = {
     },
     'newzenpnp': {
         name: 'NewzenP&P',
-        info: 'NewzenP&P HR 아웃소싱 소개 및 안내 홈페이지',
+        info: 'HR 아웃소싱 소개 및 안내 홈페이지',
         thum: './assets/img/thum/pf_newzen.png',
         category: 'Responsive',
         aosDelay: 200,
@@ -189,7 +189,7 @@ const projectData = {
     },
     'eastwave': {
         name: 'EASTWAVE',
-        info: 'EASTWAVE 케어 솔루션 소개 및 안내 홈페이지',
+        info: '케어 솔루션 소개 및 안내 홈페이지',
         thum: './assets/img/thum/pf_eastwave.png',
         category: 'Desktop',
         aosDelay: 300,
@@ -223,7 +223,7 @@ const projectData = {
     },
     'nuri_web': {
         name: 'Nurifootball WEB',
-        info: 'Nurifootball WEB 축구 커뮤니티 및 NFT 기반 통합 플랫폼',
+        info: '축구 커뮤니티 및 NFT 기반 통합 플랫폼',
         thum: './assets/img/thum/pf_nuri_web.png',
         category: 'Responsive',
         aosDelay: 0,
@@ -263,7 +263,7 @@ const projectData = {
     },
     'nuri_app': {
         name: 'Nurifootball APP',
-        info: 'Nurifootball APP 축구 커뮤니티 및 승부예측 플랫폼',
+        info: '축구 커뮤니티 및 승부예측 플랫폼',
         thum: './assets/img/thum/pf_nuri_app.png',
         category: 'Mobile',
         aosDelay: 100,
@@ -300,7 +300,7 @@ const projectData = {
     },
     'nuri_nft': {
         name: 'Nurifootball NTF',
-        info: 'Nurifootball NTF 축구 NFT 이커머스 플랫폼',
+        info: '축구 NFT 이커머스 플랫폼',
         thum: './assets/img/thum/pf_nuri_nft.png',
         category: 'Responsive',
         aosDelay: 200,
@@ -337,7 +337,7 @@ const projectData = {
     },
     'moneyswap': {
         name: 'MoenySwap',
-        info: 'MoenySwap 가상자산 디파이(DeFi) 플랫폼',
+        info: '가상자산 디파이(DeFi) 플랫폼',
         thum: './assets/img/thum/pf_moneyswap.png',
         category: 'Mobile',
         aosDelay: 300,
@@ -372,7 +372,7 @@ const projectData = {
     },
     'trcl': {
         name: 'Treecle',
-        info: 'Treecle 차량 커뮤니티 및 NFT 기반 통합 플랫폼',
+        info: '차량 커뮤니티 및 NFT 기반 통합 플랫폼',
         thum: './assets/img/thum/pf_trcl.png',
         category: 'Mobile',
         aosDelay: 0,
@@ -413,7 +413,7 @@ const projectData = {
     },
     'trcl_map': {
         name: 'Treecle MAP',
-        info: 'Treecle MAP 전기차 및 교통 정보 지도 플랫폼',
+        info: '전기차 및 교통 정보 지도 플랫폼',
         thum: './assets/img/thum/pf_trcl_map.png',
         category: 'Mobile',
         aosDelay: 100,
@@ -447,7 +447,7 @@ const projectData = {
     },
     'heyst': {
         name: 'Heyst',
-        info: 'Heyst NFT 마켓플레이스 플랫폼',
+        info: 'NFT 마켓플레이스 플랫폼',
         thum: './assets/img/thum/pf_heyst.png',
         category: 'Desktop',
         aosDelay: 200,
@@ -484,7 +484,7 @@ const projectData = {
     },
     'heyst_admin': {
         name: 'Heyst Admin',
-        info: 'Heyst Admin NFT 마켓플레이스 관리자 플랫폼',
+        info: 'NFT 마켓플레이스 관리자 플랫폼',
         thum: './assets/img/thum/pf_heyst_admin.png',
         category: 'Responsive',
         aosDelay: 300,
@@ -518,7 +518,7 @@ const projectData = {
     },
     'kstar': {
         name: 'K-Star',
-        info: 'K-Star NFT 이커머스 플랫폼',
+        info: 'NFT 이커머스 플랫폼',
         thum: './assets/img/thum/pf_kstar.png',
         category: 'Responsive',
         aosDelay: 0,
@@ -558,7 +558,7 @@ const projectData = {
     },
     'pandori': {
         name: 'Pandori',
-        info: 'Pandori 가상자산 커뮤니티 및 강의 플랫폼',
+        info: '가상자산 커뮤니티 및 강의 플랫폼',
         thum: './assets/img/thum/pf_pandori.png',
         category: 'Mobile',
         aosDelay: 100,
@@ -597,7 +597,7 @@ const projectData = {
     },
     'predicto': {
         name: 'Predicto',
-        info: 'Predicto 가상자산 현황 플랫폼',
+        info: '가상자산 현황 플랫폼',
         thum: './assets/img/thum/pf_predicto.png',
         category: 'Responsive',
         aosDelay: 200,
@@ -629,7 +629,7 @@ const projectData = {
     },
     'gomdori': {
         name: 'Gomdori',
-        info: 'Gomdori 가상자산 소개 안내용 홈페이지',
+        info: '가상자산 소개 안내용 홈페이지',
         thum: './assets/img/thum/pf_gomdori.png',
         category: 'Responsive',
         aosDelay: 300,
@@ -662,7 +662,7 @@ const projectData = {
     },
     'happyosan': {
         name: 'HappyOsan',
-        info: 'HappyOsan 병원 소개 및 안내용 홈페이지',
+        info: '병원 소개 및 안내용 홈페이지',
         thum: './assets/img/thum/pf_happyosan.png',
         category: 'Responsive',
         aosDelay: 0,
@@ -697,7 +697,7 @@ const projectData = {
     },
     'daisy': {
         name: 'Daisy Care',
-        info: 'Daisy Care 보호센터 소개 및 안내용 홈페이지',
+        info: '주야간보호센터 소개 및 안내용 홈페이지',
         thum: './assets/img/thum/pf_daisy.png',
         category: 'Responsive',
         aosDelay: 100,
@@ -732,7 +732,7 @@ const projectData = {
     },
     'brainmap_info': {
         name: 'BrainMap 소개',
-        info: 'BrainMap 소개 헬스케어 소개 및 안내용 홈페이지',
+        info: '기업 소개 및 BrainMap 안내용 홈페이지',
         thum: './assets/img/thum/pf_brainmap_info.png',
         category: 'Responsive',
         aosDelay: 200,
@@ -766,7 +766,7 @@ const projectData = {
     },
     'brainmap': {
         name: 'BrainMap',
-        info: 'BrainMap 전자의무기록(EMR) 플랫폼',
+        info: '전자의무기록(EMR) 플랫폼',
         thum: './assets/img/thum/pf_brainmap.png',
         category: 'Desktop',
         aosDelay: 300,
@@ -783,7 +783,9 @@ const projectData = {
         screen: [
             './assets/img/screen/brainmap/1.png',
             './assets/img/screen/brainmap/2.png',
-            './assets/img/screen/brainmap/3.png'
+            './assets/img/screen/brainmap/3.png',
+            './assets/img/screen/brainmap/4.png',
+            './assets/img/screen/brainmap/5.png'
         ],
         work: [
             '임상평가 및 자가진단 검사 등록/수정/삭제 기능 구현으로 평가 데이터 관리 구축',
