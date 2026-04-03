@@ -257,7 +257,7 @@ h2 {
                         @include tablet-min {max-width: 120px;}
                         @include tablet-max {max-width: none;}
                         > small {
-                            @include font-inherit($size: 12px, $weight: 300);
+                            @include font-inherit($size: 0.75rem, $weight: 300);
                             word-break: keep-all;
                         }
                     }

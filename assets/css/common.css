@@ -4299,11 +4299,9 @@ footer > P > span {
     height: 52px;
   }
 }
-
 .wave.gy {
   fill: var(--color-gray);
 }
-
 .wave.bk {
   fill: var(--color-black2);
 }

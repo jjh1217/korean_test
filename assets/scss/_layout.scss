@@ -210,6 +210,6 @@ footer {
     fill: var(--color-white);
     visibility: visible;
     @include desktop {height: 52px;}
+    &.gy {fill: var(--color-gray);}
+    &.bk {fill: var(--color-black2);}
 }
-.wave.gy {fill: var(--color-gray);}
-.wave.bk {fill: var(--color-black2);}
