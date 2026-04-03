@@ -290,7 +290,8 @@ h2 {
         }
     }
     .skill {
-        @include flex-col($gap: 20px 0);
+        @include flex-col($gap: 24px 0);
+        padding-bottom: 12px;
         .item {
             @include flex-row($just: space-between, $align: center);
             margin-bottom: 12px;
