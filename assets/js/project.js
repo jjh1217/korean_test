@@ -13,7 +13,7 @@ const projectData = {
         summary: '디지털 콘텐츠 이용 현황과 운영 데이터를 시각화하여, 보안 관제와 시스템 관리 업무를 지원하는 웹 기반 관리자 대시보드 시스템입니다.',
         period: '2026.03 - 2026.03',
         part: '퍼블리싱 (100%)',
-        scope: 'PC',
+        scope: 'PC 전용 (적응형)',
         skill: 'HTML5, SCSS, JavaScript, jQuery, Chart, Datepicker, Figma, Git, GitHub',
         screen: [
             './assets/img/screen/bookswage/1.png',
@@ -50,7 +50,7 @@ const projectData = {
         summary: '기업 간 거래 운영 데이터를 통합하여 관리하고, 통계와 정산 업무를 효율적으로 처리할 수 있도록 지원하는 웹 기반 관리자 시스템입니다.',
         period: '2026.02 - 2026.02',
         part: '퍼블리싱 (100%)',
-        scope: 'PC',
+        scope: 'PC 전용 (적응형)',
         skill: 'HTML5, SCSS, JavaScript, jQuery, Gulp, Chart, Swiper, Figma, Git, GitHub',
         screen: [
             './assets/img/screen/yes24/1.png',
@@ -89,7 +89,7 @@ const projectData = {
         summary: '기업의 급여 정산, 4대 보험, 연말정산 등 인사·노무 업무를 자동화하고 효율적으로 처리할 수 있도록 지원하는 웹 기반 급여 아웃소싱 플랫폼입니다.',
         period: '2025.01 - 2025.06',
         part: '퍼블리싱 (100%)',
-        scope: 'PC',
+        scope: 'PC 전용 (적응형)',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Wijmo Grid, Figma, Git',
         screen: [
             './assets/img/screen/ieumpay/1.png',
@@ -124,7 +124,7 @@ const projectData = {
         summary: '기업 및 개인사업자의 복잡한 세무 신고 절차를 자동화하고, 다양한 업종과 납세 유형에 유연하게 대응할 수 있는 웹 기반 세무 아웃소싱 플랫폼입니다.',
         period: '2024.01 - 2024.12',
         part: '퍼블리싱 (50%)',
-        scope: 'PC',
+        scope: 'PC 전용 (적응형)',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Figma, Git, Wijmo Grid, SweetAlert2',
         screen: [
             './assets/img/screen/ieumtax/1.png',
@@ -165,7 +165,7 @@ const projectData = {
         summary: '연말정산과 급여정산 자동화 및 외주 처리를 지원하는 B2B 급여 아웃소싱 서비스의 기업 소개 및 안내용 반응형 웹 플랫폼입니다.',
         period: '2023.10 - 2023.11',
         part: '퍼블리싱 (100%)',
-        scope: 'Mobile, Pad, PC',
+        scope: 'Mobile, Tablet, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Swiper, AOS, Figma, Git',
         screen: [
             './assets/img/screen/newzenpnp/1.png',
@@ -201,7 +201,7 @@ const projectData = {
         summary: '입주민, 소상공인, 반려동물, 환경 등 다양한 케어 서비스를 제공하고, 사용자 피드백을 반영해 개선하는 케어 솔루션 기업의 소개 및 안내용 웹 플랫폼입니다.',
         period: '2023.11 - 2023.12',
         part: '퍼블리싱 (100%)',
-        scope: 'PC',
+        scope: 'PC 전용 (적응형)',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Swiper, Figma, Git',
         screen: [
             './assets/img/screen/eastwave/1.png',
@@ -235,7 +235,7 @@ const projectData = {
         summary: '블록체인 기반으로 축구 분야의 온라인 서비스, 스포츠 커뮤니티, 메타버스 연동 게임, NFT 등을 제공하는 반응형 웹 플랫폼입니다.',
         period: '2020.10 - 2020.12',
         part: '퍼블리싱 (100%)',
-        scope: 'Mobile, Pad, PC',
+        scope: 'Mobile, Tablet, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, AOS, XD, GitHub',
         screen: [
             './assets/img/screen/nurifootball_web/1.png',
@@ -275,7 +275,7 @@ const projectData = {
         summary: '블록체인 기반으로 축구 분야의 온라인 서비스, 스포츠 커뮤니티, 승부예측 등을 제공하는 하이브리드 웹 플랫폼입니다.',
         period: '2021.01 - 2021.02',
         part: '퍼블리싱 (100%)',
-        scope: 'Mobile, Pad',
+        scope: 'Mobile, Tablet',
         skill: 'HTML5, CSS3, JavaScript, jQuery, XD, GitHub',
         screen: [
             './assets/img/screen/nurifootball_app/1.png',
@@ -312,7 +312,7 @@ const projectData = {
         summary: '블록체인 기반 NFT 뽑기(Gacha), 거래, 코인 스테이킹 기능을 통합 제공하는 반응형 웹 플랫폼입니다.',
         period: '2021.03 - 2021.04',
         part: '퍼블리싱 (100%)',
-        scope: 'Mobile, Pad, PC',
+        scope: 'Mobile, Tablet, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, XD, GitHub',
         screen: [
             './assets/img/screen/nurifootball_nft/1.png',
@@ -349,7 +349,7 @@ const projectData = {
         summary: '블록체인 기반 코인 스테이킹, 스왑, 디파이(DeFi) 기능을 통합 제공하는 모바일 중심 하이브리드 웹 플랫폼입니다.',
         period: '2021.10 - 2021.11',
         part: '퍼블리싱 (100%)',
-        scope: 'Mobile, Pad',
+        scope: 'Mobile, Tablet',
         skill: 'HTML5, CSS3, JavaScript, jQuery, touchSwipe, XD, GitHub',
         screen: [
             './assets/img/screen/moneyswap/1.png',
@@ -384,7 +384,7 @@ const projectData = {
         summary: 'TRCL 코인을 활용한 NFT 뽑기·거래, 차량용품 이커머스 등 다양한 서비스를 제공하는 모바일 중심 하이브리드 웹 플랫폼입니다.',
         period: '2021.05 - 2021.07',
         part: '퍼블리싱 (100%)',
-        scope: 'Mobile, Pad',
+        scope: 'Mobile, Tablet',
         skill: 'HTML5, CSS3, JavaScript, jQuery, touchSwipe, autosize, XD, GitHub',
         screen: [
             './assets/img/screen/trcl/1.png',
@@ -428,7 +428,7 @@ const projectData = {
         summary: '지도 API 기반으로 주유소 및 전기차 충전소 위치, 교통 정보를 제공하는 모바일 중심 하이브리드 웹 플랫폼입니다.',
         period: '2021.08 - 2021.09',
         part: '퍼블리싱 (100%)',
-        scope: 'Mobile, Pad',
+        scope: 'Mobile, Tablet',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Kakao Maps API, XD, GitHub',
         screen: [
             './assets/img/screen/trcl_map/1.png',
@@ -462,7 +462,7 @@ const projectData = {
         summary: '블록체인 기반 NFT 마켓플레이스로, 다양한 NFT 자산 탐색·구매·판매가 가능한 웹 전용 플랫폼입니다.',
         period: '2021.12 - 2022.02',
         part: '퍼블리싱 (100%)',
-        scope: 'PC',
+        scope: 'PC 전용 (적응형)',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Swiper, XD, Git',
         screen: [
             './assets/img/screen/heyst/1.png',
@@ -499,7 +499,7 @@ const projectData = {
         summary: 'Heyst 마켓플레이스 사용자 관리를 위한 관리자 전용 반응형 웹 플랫폼입니다.',
         period: '2022.03 - 2022.04',
         part: '퍼블리싱 (100%)',
-        scope: 'Mobile, Pad, PC',
+        scope: 'Mobile, Tablet, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Chart, XD, Git',
         screen: [
             './assets/img/screen/heyst_admin/1.png',
@@ -534,7 +534,7 @@ const projectData = {
         summary: '블록체인 기반 NFT 뽑기(Gacha), 거래, 코인 스테이킹 기능 통합 제공 반응형 웹 플랫폼입니다.',
         period: '2021.05 - 2021.06',
         part: '퍼블리싱 (100%)',
-        scope: 'Mobile, Pad, PC',
+        scope: 'Mobile, Tablet, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, XD, Git',
         screen: [
             './assets/img/screen/kstar/1.png',
@@ -574,7 +574,7 @@ const projectData = {
         summary: '가상자산 기반 멤버십 시스템 중심 커뮤니티, 기사, 강의 시청 기능 제공 모바일 중심 하이브리드 웹 플랫폼입니다.',
         period: '2021.05 - 2021.06',
         part: '퍼블리싱 (100%)',
-        scope: 'Mobile, Pad',
+        scope: 'Mobile, Tablet',
         skill: 'HTML5, CSS3, JavaScript, jQuery, autosize, XD, Git',
         screen: [
             './assets/img/screen/pandori/1.png',
@@ -613,7 +613,7 @@ const projectData = {
         summary: '가상자산 가격, 보유 현황, 변화 추이를 한눈에 확인 가능한 원페이지 형식 반응형 웹 플랫폼입니다.',
         period: '2021.06 - 2021.07',
         part: '퍼블리싱 (100%)',
-        scope: 'Mobile, Pad, PC',
+        scope: 'Mobile, Tablet, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Donut Chart, XD, Git',
         screen: [
             './assets/img/screen/predicto/1.png',
@@ -645,7 +645,7 @@ const projectData = {
         summary: '가상자산 프로젝트 개요, 로드맵, 토큰 정보 등을 시각적으로 전달하는 원페이지 반응형 웹 플랫폼입니다.',
         period: '2021.08 - 2021.08',
         part: '퍼블리싱 (100%)',
-        scope: 'Mobile, Pad, PC',
+        scope: 'Mobile, Tablet, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, AOS, XD, Git',
         screen: [
             './assets/img/screen/gomdori/1.png',
@@ -678,7 +678,7 @@ const projectData = {
         summary: '정신건강의학과 전문의 4인과 병원 소개, 진료 안내, 공지사항 및 문의 기능을 제공하는 기업/병원 소개 반응형 웹 플랫폼입니다.',
         period: '2018.05 - 2018.07',
         part: '전체적인 개발 (100%)',
-        scope: 'Mobile, Pad, PC',
+        scope: 'Mobile, Tablet, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Node, MySQL, Git',
         screen: [
             './assets/img/screen/happyosan/1.png',
@@ -713,7 +713,7 @@ const projectData = {
         summary: '보호센터 시설 소개, 주요 프로그램 안내, 상담 안내, 연계 정보 제공 등의 노인복지시설용 반응형 웹 플랫폼입니다.',
         period: '2018.08 - 2018.09',
         part: '전체적인 개발 (100%)',
-        scope: 'Mobile, Pad, PC',
+        scope: 'Mobile, Tablet, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Node, MySQL, Git',
         screen: [
             './assets/img/screen/daisy/1.png',
@@ -748,7 +748,7 @@ const projectData = {
         summary: '정신건강의학과 의료기관 및 전문의 위한 디지털 헬스케어 솔루션 소개 및 안내용 반응형 웹 플랫폼입니다.',
         period: '2018.10 - 2018.11',
         part: '전체적인 개발 (100%)',
-        scope: 'Mobile, Pad, PC',
+        scope: 'Mobile, Tablet, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Node, Git',
         screen: [
             './assets/img/screen/brainmap_info/1.png',
@@ -782,7 +782,7 @@ const projectData = {
         summary: '정신과 전문의용 전자의무기록 시스템으로 환자 상태 및 기록 분석, 맞춤형 치료 계획 수립 지원 웹 플랫폼입니다.',
         period: '2018.12 - 2019.05',
         part: '프론트엔드 개발 (30%)',
-        scope: 'PC',
+        scope: 'PC 전용 (적응형)',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Node, MySQL, Chart, Git',
         screen: [
             './assets/img/screen/brainmap/1.png',
