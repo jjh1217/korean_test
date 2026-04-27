@@ -17,6 +17,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+.t-ver {writing-mode: vertical-rl;}
 
 /* color & background-color */
 @each $name in map-keys($colors) {
@@ -33,6 +34,7 @@
 .w-full {width: 100% !important;}
 .wn-auto {min-width: auto !important;}
 .h-auto {height: auto !important;}
+.hn-full {min-height: 100% !important;}
 .m-auto {margin: 0 auto !important;}
 @for $i from 0 through 50 {
     .w-#{$i * 10} {width: #{$i * 10}px !important;}
@@ -73,9 +75,17 @@
 }
 .b-0  {border: 0 !important;}
 .bt-0 {border-top: 0 !important;}
+.bt-1 {border-top: 1px solid var(--color-border) !important;}
+.bt-12 {border-top: 1px solid var(--color-border2) !important;}
 .bb-0 {border-bottom: 0 !important;}
+.bb-1 {border-bottom: 1px solid var(--color-border) !important;}
+.bb-12 {border-bottom: 1px solid var(--color-border2) !important;}
 .bl-0 {border-left: 0 !important;}
+.bl-1 {border-left: 1px solid var(--color-border) !important;}
+.bl-12 {border-left: 1px solid var(--color-border2) !important;}
 .br-0 {border-right: 0 !important;}
+.br-1 {border-right: 1px solid var(--color-border) !important;}
+.br-12 {border-right: 1px solid var(--color-border2) !important;}
 .by-0 {border-top: 0 !important; border-bottom: 0 !important;}
 .bx-0 {border-left: 0 !important; border-right: 0 !important;}
 @for $i from 1 through 20 {
@@ -94,8 +104,13 @@
 .fx-dc {flex-direction: column !important;}
 .fx-no {flex: none !important;}
 .fx-full {flex: 1 !important;}
-@for $i from 0 through 9 {
-    .fx-#{$i} {flex: #{$i * 0.1} !important;}
+@for $i from 2 through 19 {
+    $val: $i * 5;
+    @if $val % 10 == 0 {
+        .fx-#{$val / 10} {flex: #{$i * 0.05} !important;}
+    } @else {
+        .fx-#{$val} {flex: #{$i * 0.05} !important;}
+    }
 }
 
 /* sort - justify / align */

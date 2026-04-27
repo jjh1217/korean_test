@@ -2,7 +2,7 @@
 
 /* reset */
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'SUIT Variable', sans-serif;
     font-size: 100%;
     font-weight: 400;
     box-sizing: border-box;
@@ -15,7 +15,6 @@ form, fieldset, legend, input, label, select, textarea, button {
     font-size: 100%;
 }
 body, h1, h2, h3, h4, h5, h6 {font-weight: 400;}
-h1, h2, h3, h4, h5 {font-family: "Montserrat";}
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -51,6 +50,14 @@ fieldset {
     border-radius: 0;
     outline: none;
     background: none;
+}
+input, textarea {
+    &::placeholder {color: var(--color-gy2);}
+    &:focus {border-color: var(--color-base) !important;}
+    &:disabled {
+        color: var(--color-gy3);
+        background-color: var(--color-bg);
+    }
 }
 select {cursor: pointer;}
 input[type='checkbox'],

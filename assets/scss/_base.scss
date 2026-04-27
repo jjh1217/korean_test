@@ -1,11 +1,11 @@
 @use 'variables' as *;
+@use 'mixin' as *;
 
 :root {
     @each $name, $value in $colors {
         --color-#{$name}: #{$value};
     }
-    --transition-base: 0.4s ease-in-out;
-    --transition-base2: 0.5s ease;
+    --transition-base: 0.3s ease;
 }
 
 /* scroll */
@@ -32,10 +32,7 @@
 /* setting */
 html, body {
     width: 100%;
-    padding-top: env(safe-area-inset-top);
-    padding-bottom: env(safe-area-inset-bottom);
-    padding-left: env(safe-area-inset-left);
-    padding-right: env(safe-area-inset-right);
+    height: 100%;
 }
 .hide {display: none !important;}
 .of-hidden {overflow: hidden !important;}
@@ -46,4 +43,19 @@ html, body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+main {
+    @include flex-col();
+    width: 100%;
+    max-width: 1400px;
+    height: 100%;
+    padding: 24px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.box-content {
+    @include flex-col($gap: 24px 0);
+    padding: 0 4px;
+    flex: 1;
+    overflow: auto;
 }

@@ -58,7 +58,7 @@
 }
 
 /* font */
-@mixin font-inherit($dis: inline-block, $family: inherit, $size: inherit, $weight: inherit, $line: inherit, $letter: inherit, $color: inherit) {
+@mixin font-iht($dis: inline-block, $family: inherit, $size: inherit, $weight: inherit, $line: inherit, $letter: inherit, $color: inherit) {
     display: $dis;
     font-family: $family;
     font-size: $size;

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>KOREA</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="./assets/icon/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icon/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icon/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icon/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="./assets/icon/favicon/site.webmanifest">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="chapter">
+            <h1>한국사 핵심 정리</h1>
+            <div>
+                <a href="/history.html" class="on">Chapter Ⅰ</a>
+                <a href="/collection.html">Chapter Ⅱ</a>
+            </div>
+        </div>
+        <div class="tab_box">
+            <button type="button" class="on" data-chap="01">선사&ensp;•&ensp;고조선</button>
+            <button type="button" data-chap="02">삼국&ensp;•&ensp;남북국</button>
+            <button type="button" data-chap="03">고려</button>
+            <button type="button" data-chap="04">조선</button>
+            <button type="button" data-chap="05">근&ensp;•&ensp;현대</button>
+        </div>
+        <section class="box-content"></section>
+    </main>
+    
+    <!-- script -->
+    <script type="text/javascript" src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery-migrate-1.4.1.min.js"></script>
+    <script>
+        $(function(){
+            $('.box-content').load('/chapter01.html');
+
+            $(document).on('click', '.tab_box > button', function(){
+                $('.tab_box > button').removeClass('on');
+                $(this).addClass('on');
+                let chapNum = $(this).data('chap');
+                $('.box-content').load('/chapter'+ chapNum +'.html', function() {
+                    $(this).scrollTop(0);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
