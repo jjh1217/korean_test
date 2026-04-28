@@ -116,6 +116,11 @@
   color: inherit;
   margin-bottom: 4px;
 }
+.note > table th > strong + img, .note > table td > strong + img {
+  width: auto;
+  height: 100px;
+  margin: 0 auto 8px;
+}
 .note > table th {
   font-weight: 700;
   background-color: var(--color-bg-bl);
@@ -151,7 +156,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: normal;
-  gap: 0 24px;
+  gap: 0 20px;
 }
 .note > table .draw > li > img {
   max-width: 140px;

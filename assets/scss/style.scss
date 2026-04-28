@@ -92,6 +92,11 @@
             > strong {
                 @include font-iht($dis: block, $weight: 700);
                 margin-bottom: 4px;
+                & + img {
+                    width: auto;
+                    height: 100px;
+                    margin: 0 auto 8px;
+                }
             }
         }
         th {
@@ -121,7 +126,7 @@
             }
         }
         .draw {
-            @include flex-row($just: center, $gap: 0 24px);
+            @include flex-row($just: center, $gap: 0 20px);
             > li {
                 > img {max-width: 140px;}
                 > p {
