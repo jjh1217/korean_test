@@ -125,47 +125,6 @@
   font-weight: 700;
   background-color: var(--color-bg-bl);
 }
-.note > table .view > img {
-  max-width: 160px;
-}
-.note > table .view {
-  display: flex;
-  flex-direction: row;
-  justify-content: initial;
-  align-items: center;
-  gap: 0 16px;
-}
-.note > table .view > p > span {
-  display: block;
-  position: relative;
-  padding-left: 12px;
-  font-size: 0.8125rem;
-  line-height: 20px;
-  word-break: keep-all;
-}
-.note > table .view > p > span::before {
-  content: "•";
-  display: block;
-  position: absolute;
-  left: 0;
-  top: -1px;
-  font-size: 0.875rem;
-}
-.note > table .draw {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: normal;
-  gap: 0 20px;
-}
-.note > table .draw > li > img {
-  max-width: 140px;
-}
-.note > table .draw > li > p {
-  padding-top: 4px;
-  font-size: 0.8125rem;
-  text-align: center;
-}
 .note .card {
   display: flex;
   flex-direction: row;
@@ -207,4 +166,54 @@
   left: 0;
   top: -1px;
   font-size: 0.875rem;
+}
+
+.view > img {
+  max-width: 160px;
+}
+.view {
+  display: flex;
+  flex-direction: row;
+  justify-content: initial;
+  align-items: center;
+  gap: 0 16px;
+}
+.view > p > strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 20px;
+}
+.view > p > span {
+  display: block;
+  position: relative;
+  padding-left: 12px;
+  font-size: 0.8125rem;
+  line-height: 20px;
+  word-break: keep-all;
+}
+.view > p > span::before {
+  content: "•";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -1px;
+  font-size: 0.875rem;
+}
+
+.draw {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: normal;
+  gap: 0 20px;
+}
+.draw > li > img {
+  max-width: 140px;
+}
+.draw > li > p {
+  padding-top: 4px;
+  font-size: 0.8125rem;
+  text-align: center;
 }

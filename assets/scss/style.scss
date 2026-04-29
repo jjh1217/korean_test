@@ -103,39 +103,6 @@
             font-weight: 700;
             background-color: var(--color-bg-bl);
         }
-        .view {
-            > img {max-width: 160px;}
-            @include flex-row($align: center, $gap: 0 16px);
-            > p {
-                > span {
-                    display: block;
-                    position: relative;
-                    padding-left: 12px;
-                    font-size: 0.8125rem;
-                    line-height: 20px;
-                    word-break: keep-all;
-                    &::before {
-                        content: '•';
-                        display: block;
-                        position: absolute;
-                        left: 0;
-                        top: -1px;
-                        font-size: 0.875rem;
-                    }
-                }
-            }
-        }
-        .draw {
-            @include flex-row($just: center, $gap: 0 20px);
-            > li {
-                > img {max-width: 140px;}
-                > p {
-                    padding-top: 4px;
-                    font-size: 0.8125rem;
-                    text-align: center;
-                }
-            }
-        }
     }
     .card {
         @include flex-row($gap: 16px);
@@ -169,6 +136,47 @@
                     }
                 }
             }
+        }
+    }
+}
+
+.view {
+    > img {max-width: 160px;}
+    @include flex-row($align: center, $gap: 0 16px);
+    > p {
+        > strong {
+            display: block;
+            margin-bottom: 4px;
+            font-size: 0.8125rem;
+            font-weight: 700;
+            line-height: 20px; 
+        }
+        > span {
+            display: block;
+            position: relative;
+            padding-left: 12px;
+            font-size: 0.8125rem;
+            line-height: 20px;
+            word-break: keep-all;
+            &::before {
+                content: '•';
+                display: block;
+                position: absolute;
+                left: 0;
+                top: -1px;
+                font-size: 0.875rem;
+            }
+        }
+    }
+}
+.draw {
+    @include flex-row($just: center, $gap: 0 20px);
+    > li {
+        > img {max-width: 140px;}
+        > p {
+            padding-top: 4px;
+            font-size: 0.8125rem;
+            text-align: center;
         }
     }
 }
